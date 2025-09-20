@@ -105,7 +105,7 @@ ansible-inventory -i acc1_aws_ec2.yml --list
 
 # Assume cross-account role
 CREDS=$(aws sts assume-role \
-  --role-arn arn:aws:iam::629843008849:role/Ansible-member-role \
+  --role-arn arn:aws:iam::xxxx:role/Ansible-member-role \
   --role-session-name AnsibleSSM)
 
 export AWS_ACCESS_KEY_ID=$(echo $CREDS | jq -r '.Credentials.AccessKeyId')
