@@ -1,0 +1,9 @@
+plugin: aws_ec2
+regions:
+  - us-east-1
+hostnames:
+  - instance-id
+filters:
+  tag:ssm_patch: true
+#iam_role_arn: arn:aws:iam::629843008849:role/Ansible-member-role
+#aws_profile: member-account-dev

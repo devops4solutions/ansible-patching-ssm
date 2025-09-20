@@ -1,0 +1,9 @@
+accounts:
+  - name: test
+    account_id: xxxxx
+    role_arn: arn:aws:iam::xxxxx:role/Ansible-member-role
+    region: us-east-1
+  - name: dev
+    account_id: xxxx
+    role_arn: arn:aws:iam::xxxx:role/Ansible-member-role
+    region: us-east-1
